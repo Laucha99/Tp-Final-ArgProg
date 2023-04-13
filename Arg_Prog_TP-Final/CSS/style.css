@@ -63,7 +63,18 @@ li:hover a{
     padding: 0.5em;
 }
 
-.parraf-sp{
-    
+.div-sp{
+    display: table-cell;
 }
+
+.img-pp{
+    width: 15%;
+    margin-right: 15px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px;
+    float: left;
+    /* align-items: end; */
+}
+
+
     

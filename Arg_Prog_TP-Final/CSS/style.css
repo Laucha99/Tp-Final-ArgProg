@@ -67,6 +67,10 @@ li:hover a{
     display: table-cell;
 }
 
+.paraf-sp{
+    font-family: 'Tajawal', sans-serif;
+}
+
 .img-pp{
     width: 15%;
     margin-right: 15px;

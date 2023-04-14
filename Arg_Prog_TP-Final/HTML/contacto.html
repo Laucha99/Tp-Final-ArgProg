@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,11 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <title>Formulario de Contacto</title>
 </head>
+
 <body>
-    <header class="header-contacto"></header>
-    
+    <div class="color">
+        <header class="header-contacto"></header>
+
         <nav class="nav-principal">
             <ul class="ul-listas">
                 <li class="listas">
@@ -26,34 +29,25 @@
                 </li>
             </ul>
         </nav>
-    </header>
+        </header>
 
-    <h1>Formulario de contacto</h1>
+        <h1 class="subs-principal">Formulario de contacto</h1>
 
-    <h3>Dejenos sus datos y a la brevedad nos prondremos en contacto.</h3>
+        <h3 class="subs-principal">Dejenos sus datos y a la brevedad nos prondremos en contacto.</h3>
 
-    <p>Nombre</p>
-    <input 
-    type="text"
-    placeholder="Ingrese su nombre"
-    />
-    
-    <p>Apellido</p>
-    <input
-    type="text"
-    placeholder="Ingrese su apellido"
-    />
+        <div>
+            <form class="formularioLoading" action="">
+                <div class="containerElement">
+                    <input type="text" placeholder="Ingresar nombre">
+                    <input type="text" placeholder="Ingresar apellido">
+                    <input type="text" placeholder="Ingresar correo">
+                    <input type="text" placeholder="Ingresar telefono fijo o celular">
 
-    <p>Telefono/Celular</p>
-    <input
-    type="number"
-    placeholder="Ingrese su numero de telefono fijo o celular"
-    />
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Dejenos una descripcion"></textarea>
+                    <input type="submit">
+                </div>
+        </div>
+    </div>
+</body>
 
-    <p>Descripcion</p>
-    <textarea maxlength="500"
-    type="text"
-    placeholder="Ingrese una descripcion"
-    ></textarea>
-    </body>
 </html>

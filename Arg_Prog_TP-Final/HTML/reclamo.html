@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,10 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <title>Formulario de Reclamo</title>
 </head>
+
 <body>
-    <header class="header-reclamo"></header>
+    <div class="color">
+        <header class="header-reclamo"></header>
 
         <nav class="nav-principal">
             <ul class="ul-listas">
@@ -26,34 +29,25 @@
                 </li>
             </ul>
         </nav>
-    </header>
-        
-    <h1>Formulario de reclamo</h1>
+        </header>
 
-    <h3>Dejenos su reclamo, sus datos y a la brevedad nos prondremos en contacto.</h3>
+        <h1 class="subs-principal">Formulario de reclamo</h1>
 
-    <p>Nombre</p>
-    <input 
-    type="text"
-    placeholder="Ingrese su nombre"
-    />
-    
-    <p>Apellido</p>
-    <input
-    type="text"
-    placeholder="Ingrese su apellido"
-    />
+        <h3 class="subs-principal">Dejenos sus datos, su reclamo y a la brevedad nos prondremos en contacto.</h3>
 
-    <p>Telefono/Celular</p>
-    <input
-    type="number"
-    placeholder="Ingrese su numero de telefono fijo o celular"
-    />
+        <div>
+            <form class="formularioLoading" action="">
+                <div class="containerElement">
+                    <input type="text" placeholder="Ingresar nombre">
+                    <input type="text" placeholder="Ingresar apellido">
+                    <input type="text" placeholder="Ingresar correo">
+                    <input type="text" placeholder="Ingresar telefono fijo o celular">
 
-    <p>Reclamo</p>
-    <textarea maxlength="1000"
-    type="text"
-    placeholder="Ingrese su reclamo"
-    ></textarea>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Dejenos el reclamo"></textarea>
+                    <input type="submit">
+                </div>
+        </div>
+    </div>
 </body>
+
 </html>

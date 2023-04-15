@@ -142,6 +142,17 @@ li:hover a{
     background-image: radial-gradient( circle 369px at -2.9% 12.9%,  rgba(247,234,163,1) 0%, rgba(236,180,238,0.56) 46.4%, rgba(163,203,247,1) 100.7% );
 }
 
+.containerElement-reclamo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
 input{
     padding: 20px;
     margin: 10px;
